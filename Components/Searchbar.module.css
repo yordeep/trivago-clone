@@ -1,0 +1,156 @@
+#si{
+    font-size: 1.5vw;
+}
+
+#ci{
+    font-size: 1.5vw;
+}
+
+#cio{
+    display: none;
+}
+#ri{
+    font-size: 1.5vw;
+}
+#cai{
+    font-size: 1.5vw;
+}
+
+#cal{
+    display: flex;
+}
+
+@media screen and (max-width:900px) {
+
+
+    #sb{
+        /* background-color: red; */
+        width: 100%;
+        justify-content: center;
+        margin: 2vw 1vw;
+        padding: 0;
+    }
+    #sbi{
+        /* background-color: red; */
+        justify-content: start;
+    }
+
+    #s{
+        font-size: 1.2vw;
+    }
+
+    #cin{
+        display: none;
+    }
+
+    #cout{
+        display: none;
+    }
+    #cio{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #cioo{
+        font-size: 1.2vw;
+    }
+    #ciot{
+        font-size: 1.1vw;
+    }
+    #ri{
+        font-size: 3vw;
+    }
+    #ro{
+        font-size: 1.2vw;
+    }
+    #rt{
+        font-size: 1.1vw;
+    }
+    #si{
+        font-size: 3vw;
+    }
+
+    #ci{
+        font-size: 3vw;
+    }
+    #cai{
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width:699px) {
+    #sb{
+        /* background-color: red; */
+        width: 100%;        justify-content: start;
+         margin: 2vw 1vw;
+        padding: 0; 
+    }
+    #sbi{
+        /* background-color: blue; */
+        width: 100%;
+        /* justify-content: start; */
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    #s{
+        /* background-color: red; */
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        justify-content: start;
+        font-size: 3vw;
+        border:none;
+    }
+    #si{
+        font-size: 5vw;
+    }
+    #ci{
+        display: none;
+    }
+    #sbb{
+        display: none;
+    }
+
+    #r{
+        border:none;
+
+    }
+    #cio{
+        border:none;
+        padding-left: 0;
+    }
+    #cioo{
+        font-size: 1.5vw;
+    }
+    #ciot{
+        font-size: 2vw;
+    }
+    #cai{
+        font-size: 4vw;
+    }
+    #ri{
+        font-size: 4vw;
+    }
+    #ro{
+        font-size: 1.5vw;
+    }
+    #rt{
+        font-size: 2vw;
+    }
+
+}
+
+
+@media screen and (max-width:600px) and (min-width:199px) {
+    #cioo{
+        font-size: 3vw;
+        padding-bottom: 0;
+    }
+    #ciot{
+        font-size: 2vw;
+    }
+    #ro{
+        font-size: 3vw;
+    }
+}

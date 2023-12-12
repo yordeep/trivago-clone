@@ -1,0 +1,33 @@
+.date{
+    width: 5vw;
+    font-size: 0.9vw;
+    outline: none;
+    font-weight: 700;
+}
+
+@media screen and (max-width:900px) and (min-width:700px){
+    .date{
+        width: 5vw;
+        font-size: 1.1vw;
+        outline: none;
+        font-weight: 750;
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:600px){
+    .date{
+        width: 8vw;
+        font-size: 1.9vw;
+        outline: none;
+        font-weight: 750;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:199px){
+    .date{
+        width: 8vw;
+        font-size: 2vw;
+        outline: none;
+        font-weight: 750;
+    }
+}

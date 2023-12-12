@@ -1,0 +1,192 @@
+
+#favi{
+    font-size: 1.5vw;
+}
+#favib{
+    display: none;
+}
+#logib{
+    display: none;
+}
+#menuib{
+    display: none;
+}
+#menui{
+    font-size: 1.5vw;
+}
+#login{
+    display: flex;
+    align-items: center;
+}
+#favl{
+    display: flex;
+    align-items: center;
+}
+#langi{
+    display: flex;
+    align-items: center;
+}
+#menuin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#menuin:hover{
+    #menudiv1{
+        display: flex;
+        flex-direction: column;
+        gap:0.1vw;
+        z-index: 12;
+        position: absolute;
+        top: 7%;
+        border:0.1vw solid #000;
+        padding: 0.1vw;
+        background-color: #fff;
+    }
+
+    #mdi1{
+        border-bottom: 0.1vw solid #000;
+        padding: 0.3vw;
+    }
+    #mdi1:hover{
+        background-color: rgb(241 245 249);
+    }
+    
+    #mdi2{
+        padding: 0.3vw;
+    }
+    #mdi2:hover{
+        background-color: rgb(241 245 249);
+    }
+}
+#menudiv1{
+    display: none;
+}
+#log{
+    font-size: 1vw;
+}
+#logi{
+    font-size: 1.5vw;
+}
+
+
+#favl:focus{
+    color:rgb(0,124,194);
+    border-bottom:0.1em solid rgb(0,124,194);
+}
+
+#favib:focus{
+    color:rgb(0,124,194);
+    border-bottom:0.1em solid rgb(0,124,194);
+}
+
+#login:focus{
+    color:rgb(0,124,194);
+    border-bottom:0.1em solid rgb(0,124,194);
+}
+#logib:focus{
+    color:rgb(0,124,194);
+    border-bottom:0.1em solid rgb(0,124,194);
+}
+#langi:focus{
+    color:rgb(0,124,194);
+    border-bottom:0.1em solid rgb(0,124,194);
+
+}
+#menuin:focus{
+    color:rgb(0,124,194);
+    border-bottom:0.1em solid rgb(0,124,194);
+}
+#menuib:focus{
+    color:rgb(0,124,194);
+    border-bottom:0.1em solid rgb(0,124,194);
+}
+
+
+@media screen and (max-width:980px) {
+    #header{
+        padding: 0 1vw;
+    }
+
+    #fav{
+        font-size: 1.5vw;
+    }
+
+    #favi{
+        font-size: 3vw;        
+    }
+    #lang{
+        display: none;
+    }
+    #log{
+        font-size: 1.5vw;
+    }
+    #logi{
+        font-size: 3vw;
+    }
+    #menu{
+        font-size: 1.5vw;
+    }
+    #menui{
+        font-size: 3vw;
+    }
+    #menuin{
+        display: flex;
+        flex-direction: row;
+    }
+    #menuin:hover {
+        #menudiv1{
+            display: none;
+        }
+    }
+
+    @media screen and (max-width:700px) {
+        #fav{
+         display: none;
+        }
+        #favib{
+            display: flex;
+            align-items: center;
+            font-size: 5vw;
+        }
+        #log{
+            display: none;
+        }
+        #logib{
+            display: block;
+            font-size: 5vw;
+        }
+        #menu{
+            display: none;
+        }
+        #menuib{
+            display: flex;
+            align-items: center;
+            font-size: 5vw;
+        }
+    }
+}
+
+
+@media screen and (max-width:550px) and (min-width:200px) {
+    #favib{
+        /* background-color: red; */
+        font-size: 6vw;
+        display: flex;
+        align-items: center;
+
+    }
+    #logib{
+        font-size: 6vw;
+        display: flex;
+        align-items: center;
+    }
+    #menuib{
+        font-size: 6vw;
+        display: flex;
+        align-items: center;
+    }
+}
+

@@ -1,0 +1,112 @@
+
+.favorite_page_left{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    gap: 4vw;   
+}
+.favorite_page_right{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 2vw 0;
+    /* background-color: green; */
+
+
+}
+
+.favorite_page_right_in{
+    display: flex;
+    justify-content: start;
+    border:0.1em solid #000;
+    border-radius: 0.5em;
+    padding: 0.3em 0.5em;
+    box-shadow:0.3vw 0.2vw 0.1vw rgba(0, 0, 0, 0.2);
+    gap: 1vw;
+}
+
+#favorite_icon{
+    font-size: 2.1vw;
+}
+
+.back{
+    margin-top: 2vw;
+    font-size: 1.2vw;
+    color:rgb(0,124,194);
+}
+.backlink:hover{
+    border-bottom: 0.1em solid rgb(0,124,194);
+}
+.favorite_page_right_link{
+    color:rgb(0,124,194);
+}
+.favorite_page_right_link:hover{
+    border-bottom:0.1em solid  rgb(0,124,194);
+}
+.favorite_page_right_in_h{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.favorite_page_right_in_p{
+    font-size: 0.9vw;
+}
+.favorite_page_img{
+    width: 13vw;
+    border-radius: 1vw;
+    margin: 1vw 0;
+}
+
+@media screen and (max-width:700px) {
+    .favorite_page_right_in_h{
+        font-size: 2vw;
+        font-weight: 500;
+    }
+    .favorite_page_right_in_p{
+        font-size: 1.2vw;
+    }
+    .favorite_page_p1{
+        font-size: 2vw;
+    }
+    .favorite_page_p2{
+        font-size: 2vw;
+    }
+    .favorite_page_h2{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (min-width:199px ) and (max-width:600px) {
+    .favorite_page_right_in_h{
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    .favorite_page_right_in_p{
+        font-size: 2vw;
+        word-break: break-all;
+    }
+    .favorite_page_p1{
+        font-size: 3vw;
+    }
+    .favorite_page_p2{
+        font-size: 2vw;
+    }
+    .favorite_page_h2{
+        font-size: 2vw;
+    }
+    #favorite_icon{
+        font-size: 3vw;
+    }
+    .favorite_page_right_in{
+        width: 70vw;
+    }
+    .favorite_page_img{
+        width: 20vw;
+        border-radius: 1vw;
+        margin: 1vw 0;
+    }
+    .back{
+        margin-top: 5vw;
+        font-size: 2vw;
+        color:rgb(0,124,194);
+    }
+}

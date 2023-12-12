@@ -1,0 +1,229 @@
+.outer_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+.logh{
+    font-size: 2vw;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 2vw;
+    gap:1vw;
+   min-height: 100vh;
+    width: 30vw;
+    justify-content: start;
+    /* background-color: red; */
+}
+.login_inp{
+    /* background-color: blue; */
+    outline: none;
+    width: 80%;
+    height: 3vw;
+    border: 0.1vw solid #000;
+    border-radius: 0.4vw;
+}
+.login_inp:focus{
+    outline: 0.16vw solid rgb(0,124,194);
+    border-radius: 0.4vw;
+    border: none;
+}
+.logb{
+    background-color: rgb(0,124,194);
+    width: 80%;
+    border-radius: 1vw;
+    height: 3vw;
+    font-size:1vw;
+    font-weight: 500;
+    color:#fff;
+
+}
+.logb:hover{
+    background-color: rgb(0,95,163);
+}
+
+.logor{
+    font-size: 1.4vw;
+}
+
+.gil{
+    background-color: #fff;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2vw;
+    gap:2vw;
+    border: 0.1vw solid #000;
+    border-radius: 2vw;
+    padding: 0.5vw;
+}
+
+.gil:hover{
+    background-color: rgb(151,151,151);
+}
+
+.ail{
+    background-color: #fff;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2vw;
+    gap:4vw;
+    border: 0.1vw solid #000;
+    border-radius: 2vw;
+    padding: 0.5vw;
+
+}
+
+.ail:hover{
+    background-color: rgb(151,151,151);
+}
+
+.fil{
+    background-color: #fff;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2vw;
+    gap:2vw;
+    border: 0.1vw solid #000;
+    border-radius: 2vw;
+    padding: 0.5vw;
+}
+
+.fil:hover{
+    background-color: rgb(151,151,151);
+}
+
+.gi{
+    width: 2vw;
+}
+
+.ai{
+    width: 3vw;
+}
+.fi{
+    width: 2vw;
+}
+
+.log2{
+    /* background-color: red; */
+    font-size: 1vw;
+    width: 80%;
+}
+
+.logs1{
+    color: rgb(0,124,194);
+}
+
+.logs2{
+    color: rgb(0,124,194);
+}
+
+
+
+@media screen and (max-width:900px) {
+
+    .login{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 2vw;
+        gap:1vw;
+       min-height: 100vh;
+        width: 40vh;
+        justify-content: start;
+        padding-top: 20vh;
+        /* background-color: red; */
+    }
+    .logh{
+        font-size: 2vh;
+        font-weight: 500;
+    }
+    .login_inp{
+        /* background-color: blue; */
+        outline: none;
+        width: 80%;
+        height: 4vh;
+        border: 0.1vw solid #000;
+        border-radius: 0.4vw;
+    }
+
+    .logb{
+        background-color: rgb(0,124,194);
+        width: 80%;
+        border-radius: 1vw;
+        height: 4vh;
+        font-size:2vh;
+        font-weight: 500;
+        color:#fff;
+    
+    }
+    .logor{
+        font-size: 2vh;
+    }
+    
+    .gi{
+        width: 3vh;
+    }
+    
+    .ai{
+        width: 4vh;
+    }
+    .fi{
+        width: 3vh;
+    }
+    .gil{
+        font-size: 1.7vh;
+    }
+    .ail{
+        font-size: 1.7vh;
+    }
+    .fil{
+        font-size: 1.7vh;
+    }
+
+    .log2{
+        /* background-color: red; */
+        font-size: 1.4vw;
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width:600px) and (min-width:400px) {
+
+
+    .logor{
+        font-size:2.3vw;
+    }
+
+
+    .log2{
+        /* background-color: red; */
+        font-size: 2vw;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:100px) {
+
+
+    .logor{
+        font-size:3.4vw;
+    }
+
+
+    .log2{
+        /* background-color: red; */
+        font-size: 3.4vw;
+        width: 80%;
+    }
+}

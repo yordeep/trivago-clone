@@ -1,0 +1,147 @@
+#hi1{
+    font-size: 1.5vw;
+}
+
+#hi2{
+    font-size: 1.5vw;
+}
+
+#hi3{
+    font-size: 1.5vw;
+}
+
+#hi4{
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width:900px) {
+    #cont{
+        width:100%;
+        /* background-color: red; */
+
+    }
+    #box1{
+        /* background-color: blue; */
+        width: 100%;
+        justify-content: space-between;
+        font-size: 1.2vw;
+        
+    }
+    #b1h{
+        width: 100%;
+        font-size: 1.5vw;
+    }
+    #hi1{
+        font-size: 3vw;
+    }
+    #box2{
+        /* background-color: blue; */
+        width: 100%;
+        font-size: 1.2vw;
+        justify-content: space-between;
+    }
+    #b2h{
+        width: 100%;
+        font-size: 1.5vw;
+    }
+    #hi2{
+        font-size: 3vw;
+    }
+
+    #box3{
+        /* background-color: blue; */
+        width: 100%;
+        font-size: 1.2vw;
+        justify-content: space-between;
+    }
+    #b3h{
+        width: 100%;
+        font-size: 1.5vw;
+    }
+    #hi3{
+        font-size: 3vw;
+    }
+    #box4{
+        /* background-color: blue; */
+        width: 100%;
+        font-size: 1.2vw;
+        justify-content: space-between;
+    }
+    #b4h{
+        width: 100%;
+        font-size: 1.5vw;
+    }
+    #hi4{
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width:699px) {
+    #box1{
+
+        font-size: 1.5vw;
+        
+    }
+    #b1h{
+        font-size: 1.8vw;
+    }
+
+    #box2{
+        font-size: 1.5vw;
+    }
+    #b2h{
+        font-size: 1.8vw;
+    }
+    #box3{
+        font-size: 1.5vw;
+    }
+    #b3h{
+        font-size: 1.8vw;
+    }
+    #box4{
+        font-size: 1.5vw;
+    }
+    #b4h{
+        font-size: 1.8vw;
+    }
+    
+}
+
+@media screen and (min-width:200px) and (max-width:550px) {
+    #cont{
+        width: 100vw;
+    }
+    
+    #box1{
+        /* background-color: blue; */
+        width: fit-content;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 2vw;
+        
+    }
+    #box2{
+        /* background-color: blue; */
+        width: fit-content;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 2vw;
+        
+    }
+    #box3{
+        /* background-color: blue; */
+        width: fit-content;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 2vw;
+        
+    }
+    #box4{
+        /* background-color: blue; */
+        width: fit-content;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 2vw;
+        
+    }
+}

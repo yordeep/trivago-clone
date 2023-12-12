@@ -1,0 +1,167 @@
+.language{
+    width: 100%;
+    min-height:100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4),rgba(0,0,0,0.4));    
+    top: 0%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+.langdiv{
+    background-color: #fff;
+    margin-top: 15vw;
+    padding: 2vw  3vw;
+    border-radius: 2vw;
+    display: flex;
+    gap: 0.5vw;
+    flex-direction: column;
+    animation: slidein 0.4s ease 0.5s  both;
+
+}
+
+.langh{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+#ci{
+    font-size: 2vw;
+}
+
+.langh3{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.langp1{
+    font-size: 1vw;
+}
+.langp2{
+    font-size: 1vw;
+}
+.langs1{
+    /* background-color: red; */
+    width: 90%;
+    border: 0.1vw solid #000;
+    border-radius: 1vw;
+    font-size: 1vw;
+    padding: 0.4vw;
+}
+.langs2{
+    /* background-color: red; */
+    width: 90%;
+    border: 0.1vw solid #000;
+    border-radius: 1vw;
+    font-size: 1vw;
+    padding: 0.4vw;
+}
+.langb{
+    font-size: 1.4vw;
+    border-radius: 1vw;
+    background-color: rgb(0,124,194);
+    color:#fff;
+    padding: 0.3vw 1.5vw;
+    margin-top: 1vw;
+    width: 8vw;
+}
+
+@keyframes slidein {
+    from {
+      transform: translateY(200%);
+    }
+  
+    to {
+      transform: translateY(0%);
+    }
+  }
+  
+
+@media screen and (max-width:900px){
+    .langdiv{
+        margin-top: 35vw;
+    }
+    .langh3{
+        font-size: 2vw;
+        font-weight: 500;
+    }
+    .langp1{
+        font-size: 1.5vw;
+    }
+    .langp2{
+        font-size: 1.5vw;
+    }
+    .langs1{
+        font-size: 1.4vw;
+    }
+    .langs2{
+        font-size: 1.4vw;
+    }
+    .langb{
+        font-size: 1.8vw;
+    }
+    #ci{
+        font-size: 2.2vw;
+    }
+    
+}
+
+@media screen and (max-width:600px) and (min-width:400px){
+    .langdiv{
+        margin-top: 50vw;
+    }
+    .langh3{
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    .langp1{
+        font-size: 1.8vw;
+    }
+    .langp2{
+        font-size: 1.8vw;
+    }
+    .langs1{
+        font-size: 1.6vw;
+    }
+    .langs2{
+        font-size: 1.6vw;
+    }
+    .langb{
+        font-size: 2vw;
+    }
+    #ci{
+        font-size: 2.5vw;
+    }
+    
+}
+
+@media screen and (max-width:400px) and (min-width:100px){
+    .langdiv{
+        margin-top:60vw;
+    }
+    .langh3{
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    .langp1{
+        font-size: 2.8vw;
+    }
+    .langp2{
+        font-size: 2.8vw;
+    }
+    .langs1{
+        font-size: 3vw;
+    }
+    .langs2{
+        font-size: 3vw;
+    }
+    .langb{
+        font-size: 4vw;
+        width: 15vw;
+    }
+    #ci{
+        font-size: 2.8vw;
+    }
+    
+}
