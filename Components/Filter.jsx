@@ -8,7 +8,7 @@ const Filter = () => {
 
         <div id={Styles.f} className=' mb-4'>
              <div id={Styles.fi} className='flex justify-center items-center gap-2'>
-            <div className='flex flex-col'>
+            <div id={Styles.per} className='flex flex-col'>
                 <span className='ml-3 pb-2 font-bold text-xs'>Price: <span className=' font-normal text-xs'>per night</span></span>
                 <div id={Styles.fs0}>
                     ₹0 - ₹45,000+
@@ -20,10 +20,14 @@ const Filter = () => {
                         <span>Set price range</span>
                         <span id={Styles.prids}>
                             <span id={Styles.prids1}>per night</span>
-                            <span id={Styles.prids2}> total stay</span>
+                            <span id={Styles.prids2}>total stay</span>
                         </span>
                     </div>
                 <Slider/>
+                <div id={Styles.ftb}>
+                        <button id={Styles.ftbr}>reset</button>
+                        <button id={Styles.ftba}>apply</button>
+                    </div>
                 </div>
             </div>
 
