@@ -15,7 +15,6 @@ const page = () => {
     <Content/>
     <Footer/>
     {/* <Map/> */}
-    
     </div> 
     );
 }

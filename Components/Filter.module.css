@@ -34,6 +34,39 @@
     }
     
 }
+#prir{
+    
+    background-color: red;
+    width: 20vw;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#prid{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0vw 1vw;
+}
+#prids{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+#prids1{
+    background-color: yellow;
+    border: 0.1vw solid #000;
+    border-radius: 1vw;
+    padding: 0.2vw 1.5vw;
+}
+#prids2{
+    background-color: yellow;
+    border:0.1vw solid #000;
+    border-radius: 1vw;
+    padding: 0.2vw 1.5vw;
+}
 #fs1{
     border: 0.1vw solid #dadada;
     border-radius:2vw;
@@ -114,7 +147,6 @@
 }
 #filrb:hover{
     border: 0.1vw solid rgb(0, 69, 110);
-
 }
 #fil2{
     /* background-color: red; */

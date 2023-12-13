@@ -1,14 +1,9 @@
 "use client"
 import React, { useState } from 'react';
 import Styles from '@/Components/Filter.module.css';
-import { Slider } from '@mui/material';
+import Slider from '@/Components/Slider';
+
 const Filter = () => {
-    let min = 0;
-    let max = 45000;
-    const [value, setvalue] = useState([10,90]);
-    const updateRange = (e,data)=>{
-        setvalue(data);
-    }
     return ( 
 
         <div id={Styles.f} className=' mb-4'>
@@ -20,8 +15,15 @@ const Filter = () => {
                     <i id={Styles.fs0i} class="ri-arrow-down-s-line"></i>
                 <i id={Styles.fs0iu} class="ri-arrow-up-s-line"></i>
                 </div>
-                <div>
-                    <Slider value={value}/>
+                <div id={Styles.prir}>
+                    <div id={Styles.prid}>
+                        <span>Set price range</span>
+                        <span id={Styles.prids}>
+                            <span id={Styles.prids1}>per night</span>
+                            <span id={Styles.prids2}> total stay</span>
+                        </span>
+                    </div>
+                <Slider/>
                 </div>
             </div>
 
